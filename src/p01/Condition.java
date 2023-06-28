@@ -4,6 +4,7 @@ public class Condition {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//boolean 참 거짓을 할때 사용
         int age =10;
         boolean isEleven =age ==11;
        if(age ==11 ) {

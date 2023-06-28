@@ -14,7 +14,7 @@ public class RandomTest2 {
 		 //parseInt()는 문자열 String타입의 숫자를 int타입으로 변환해주는 녀
     Random r =new Random();
     
-    int rNum =r.nextInt(10)+1;
+    int rNum =r.nextInt(5)+1;
     Scanner scan=new Scanner(System.in);
     //int num=scan.nextLine();
     System.out.print("숫자를 입력하고 엔터:");

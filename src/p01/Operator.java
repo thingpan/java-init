@@ -10,8 +10,8 @@ public class Operator {
         System.out.println(i);
         
         int nume =5;
-        System.out.println(nume/2);
-        System.out.println(nume % 2);
+        System.out.println(nume/2);//묷
+        System.out.println(nume % 2);//나머지
         
 	}
 

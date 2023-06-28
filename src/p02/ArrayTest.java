@@ -22,15 +22,6 @@ public class ArrayTest {
     	 System.out.print(i+",");
     	   System.out.println(strNums[i]);
     	   
-     }  for(int i=0;i<=9; i++) {
-    	 strNums[i] =i+1+"";
-     }
-     for(int i=0;i<=9; i++) {
-    	 System.out.println(strNums[i]);
-     }
-     
-      
-      
+      }     
 	}
-
 }

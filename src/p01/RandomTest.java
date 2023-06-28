@@ -9,7 +9,7 @@ public class RandomTest {
            Random r=new Random();
            int[] ahe =new int[3];
         for(int i =0; i<3; i++) {
-        ahe[i]= r.nextInt(10)+1;
+        ahe[i]= r.nextInt(20)+1;
         System.out.println(ahe[i]);
         }
        
