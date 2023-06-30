@@ -4,18 +4,20 @@ public class TwoDimeansonalArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//0=0x1+1
         int[][] numsArray =new int[3][3];
-        System.out.println(numsArray.length);
-        
+
+        int k=0;
         for(int i=0;i<numsArray.length;i++) {
-        	System.out.println(numsArray[i].length);
+        	
         	for(int j=0;j<numsArray[i].length;j++) {
-        		numsArray[i][j]=1;
+        		++k;
+        		numsArray[i][j]=k;
         	}
         }
         for(int i=0;i<numsArray.length; i++) {
         	for(int j=0;j<numsArray[i].length;j++) {
-        		System.out.println(numsArray[i][j]);
+        		System.out.print(numsArray[i][j]);
         	}
         }
 	}

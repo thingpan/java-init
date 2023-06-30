@@ -8,7 +8,7 @@ public class Lotto2 {
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
-		
+		// 쪽지 시험 세문제
 		System.out.print("1~45까지의 숫자를 ,를 기준으로 6개 입력해주세요:");
 		Scanner scan = new Scanner(System.in);
 		String lottoStr = scan.nextLine();
