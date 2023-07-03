@@ -9,7 +9,7 @@ public class Exam {
 			String foodType ="한식";
 			
 			String foodName1="치킨";
-			int foo
+			
 	}
 
 }
