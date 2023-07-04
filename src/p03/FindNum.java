@@ -16,10 +16,11 @@ public class FindNum {
         	   int i=1;
         	 System.out.print("1부터 10까지 숫자를 입력하세요:");
         	 int inputNum =Integer.parseInt(scan.nextLine());
-        	 i++;
+        	
         	// correct =rNum==inputNum;
         	 if(inputNum==rNum) {
         		 correct=true;
+        		 i++;
         		 System.out.println(i+"번 만에 맞췄다");
          }else {
         	 System.out.println("틀렸다");
