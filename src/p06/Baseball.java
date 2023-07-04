@@ -24,8 +24,17 @@ public class Baseball {
 	   String numStr =scan.nextLine();
 	   String[] numStrs =numStr.split(",");
 	   int[] compNums =new int[numStrs.length];
+	   int ball =0; 
+	   int strike=0;
 	   for(int i=0; i<numStrs.length; i++) {
 		   compNums[i]=Integer.parseInt(numStrs[i]);
+		   for(int j=0;j<i; j++ ) {
+			   if( compNums[i]==) {
+				   
+			   }
+		   }
+		  
+		   
 	   
 	}
 	}
