@@ -27,8 +27,12 @@ public class MapTest1 {
 		m3.put("age", "25");
 		m3.put("address", "광주");
 		List<Map<String, String>> mapList = new ArrayList<>();
-		
-
+		mapList.add(m);
+		mapList.add(m1);
+		mapList.add(m2);
+		mapList.add(m3);
+		//Map<String,List<Map<String,String>>> maps=new HashMap<>();
+		//maps.put("humanList",mapList);
 		for (int i = 0; i < mapList.size(); i++) {
 			Map<String, String> map = mapList.get(i);
 			Iterator<String> it = map.keySet().iterator();
