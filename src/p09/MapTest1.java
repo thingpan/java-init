@@ -33,8 +33,8 @@ public class MapTest1 {
 		mapList.add(m3);
 		//Map<String,List<Map<String,String>>> maps=new HashMap<>();
 		//maps.put("humanList",mapList);
-		for (int i = 0; i < mapList.size(); i++) {
-			Map<String, String> map = mapList.get(i);
+	
+		for (Map<String, String> map : mapList) {	
 			Iterator<String> it = map.keySet().iterator();
 			while (it.hasNext()) {
 				String key = it.next();
